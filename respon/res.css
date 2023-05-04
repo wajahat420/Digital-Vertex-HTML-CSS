@@ -22,7 +22,7 @@
 
     #clickss:checked~ul {
         left: 0%;
-        transition: all 0.8s ease;
+        transition: all .2s ease-out;
     }
 
     .row-1-col-1 .menu-btn i {
@@ -86,6 +86,9 @@
     .cus_csstwotow{
         float: none;
     }
+    .inn-card-inn{
+      width: 90%;
+    }
 }
 @media only screen and (max-width: 470px){
     .row5{
@@ -137,5 +140,15 @@
     }
     .list .list_style {
       width: 100px;
+    }
+    .row-1-col-2{
+     padding-left: 2%;
+     padding-right: 2%; 
+    }
+    .inn-card-inn{
+    padding: 5px 20px;
+    
+    
+    line-height: 25px;
     }
   }
