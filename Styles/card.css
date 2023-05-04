@@ -9,7 +9,15 @@
     box-sizing: border-box;
     font-family: Arial;
 }
-
+:root {
+    --light-gray: #8c8ca580;
+    --white: #ffffff;
+    --small-font: 8px;
+    --medium-font: 12px;
+    --font: 16px;
+    --large-font: 20px;
+    --border-color: #8c8ca580;
+  }
 .wrapper {
     max-width: 1300px;
     width: 100%;
@@ -41,7 +49,7 @@ section {
 }
 .card:hover{
     border-radius: 5px;
-    box-shadow: 0 0 5px #727171, 0 0 10px #727171, 0 0 10px #727171, 0 0 13px #727171;}
+    box-shadow: 0 0 5px #8c8ca580, 0 0 10px #8c8ca580, 0 0 10px #8c8ca580, 0 0 13px #8c8ca580;}
 .inn-card{
     text-align: center;
 }
