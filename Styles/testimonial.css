@@ -9,6 +9,11 @@
   box-sizing: border-box;
 }
 
+@font-face {
+  font-family: myFont;
+  src: url(images/san.ttf.ttf);
+}
+
 .wrapper {
   max-width: 1280px;
   width: 100%;
@@ -30,48 +35,53 @@ content {
   /* background: url(../image/back.jpg) no-repeat center; */
   background-size: cover;
 }
-.main:hover{
-  
+.main:hover {
 }
-.main-inn{
+.main-inn {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-.heading h2{
-  font-size: 35px;
+.heading h2 {
+  font-size: 32px;
   color: #fff;
+  margin-top: 70px;
+  font-family: var(--sansarif);
 }
-.inn-card-inn{
+.inn-card-inn {
   background: #fff;
   border-radius: 5px;
   padding: 30px 20px;
   margin: 30px 0;
   width: 40%;
 }
-.inn-card-inn p{
+.inn-card-inn p {
   font-size: 18px;
   color: #000;
   text-align: justify;
+  font-family: var(--sansarif);
 }
-.round-inn{
+.round-inn {
   background: #fff;
-  padding: 5px 20px;
-  margin: 35px 0;
+  padding: 4px 18px;
+  margin: 5px 0 65px 0px;
   height: auto;
   border-radius: 100px;
   width: 300px;
 }
-.round-inn img{
+.round-inn img {
   border-radius: 50%;
   width: 25%;
   float: left;
-  margin-right: 5%;
+  margin-left: -5%;
+  margin-right: 22px;
 }
-.round-inn h2{
+.round-inn h2 {
   font-size: 25px;
+  font-family: var(--sansarif);
 }
-.round-inn p{
+.round-inn p {
   color: #000;
   font-size: 18px;
+  font-family: var(--sansarif);
 }
