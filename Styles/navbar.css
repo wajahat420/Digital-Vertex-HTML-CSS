@@ -62,7 +62,7 @@ a {
 
 .header {
   padding: 15px 0;
-  background: rgba(140, 140, 165, 0.5);
+  background: #000;
   width: 100%;
   z-index: 3;
   position: absolute;
@@ -101,6 +101,7 @@ a {
   clear: both;
   max-height: 0;
   transition: max-height 0.2s ease-out;
+  text-align: center;
 }
 
 /* menu icon */
@@ -115,7 +116,7 @@ a {
 }
 
 .header .menu-icon .navicon {
-  background: #000000;
+  background: #fff;
   display: block;
   height: 2px;
   position: relative;
@@ -125,7 +126,7 @@ a {
 
 .header .menu-icon .navicon:before,
 .header .menu-icon .navicon:after {
-  background: #000000;
+  background: #fff;
   content: "";
   display: block;
   height: 100%;
@@ -170,23 +171,6 @@ a {
 }
 
 /* 48em = 768px */
-
-@media (min-width: 48em) {
-  .header li {
-    float: left;
-  }
-  .header li a {
-    padding: 20px 30px;
-  }
-  .header .menu {
-    clear: none;
-    float: right;
-    max-height: none;
-  }
-  .header .menu-icon {
-    display: none;
-  }
-}
 
 .row-1-col-2 {
   display: inline-block;
