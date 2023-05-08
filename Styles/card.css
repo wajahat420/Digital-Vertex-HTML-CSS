@@ -40,7 +40,7 @@ section {
 }
 .card{
     width: 300px;
-    box-shadow: 0px 0 10px 5px #ccc;
+    box-shadow: 0px 0 10px 3px #e4e4e4;
     padding: 50px 15px;
     float: left;
     margin: 10px 25px 0px 20px;
@@ -48,8 +48,9 @@ section {
     border-radius: 5px;
 }
 .card:hover{
-    border-radius: 5px;
-    box-shadow: 0 0 5px #8c8ca580, 0 0 10px #8c8ca580, 0 0 10px #8c8ca580, 0 0 13px #8c8ca580;}
+    /* border-radius: 5px;
+    box-shadow: 0 0 5px #8c8ca580, 0 0 10px #8c8ca580, 0 0 10px #8c8ca580, 0 0 13px #8c8ca580 */
+}
 .inn-card{
     text-align: center;
 }

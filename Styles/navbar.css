@@ -61,7 +61,7 @@ a {
 /* header */
 
 .header {
-  padding: 15px 0;
+  padding: 10px 0;
   background: #000;
   width: 100%;
   z-index: 3;
@@ -90,7 +90,7 @@ a {
 .header .logo {
   display: block;
   float: left;
-  padding: 0px 20px 10px 10px;
+  /* padding: 0px 20px 10px 10px; */
 }
 .header .logo img {
   width: 155px;
@@ -102,6 +102,7 @@ a {
   max-height: 0;
   transition: max-height 0.2s ease-out;
   text-align: center;
+  margin-top: 12px;
 }
 
 /* menu icon */

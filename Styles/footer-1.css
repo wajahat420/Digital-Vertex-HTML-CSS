@@ -94,7 +94,7 @@ transition: linear all 0.2s;
 }
 .cus_csstwotow h2{
     font-size: 24px;
-    font-family: Myriad Pro;
+    /* font-family: Myriad Pro; */
     color: #262626;
 }
 .cus_csstwotow ul{
@@ -102,9 +102,10 @@ transition: linear all 0.2s;
 }
 .cus_csstwotow ul li{
     font-size: 17px;
-    font-family: Myriad Pro;
+    /* font-family: Myriad Pro; */
     color: #666;
     padding: 10px 6% 0 0;
+    margin-left: 5px;
     
 }
 .cus_csstwotow ul li i{
@@ -113,8 +114,11 @@ transition: linear all 0.2s;
 }
 .cus_csstwotow ul li a{
     font-size: 17px;
-    font-family: Myriad Pro;
+    /* font-family: Myriad Pro; */
     color: #262626;
+}
+.cus_csstwotow ul li a:hover{
+    text-decoration: underline;
 }
 .cus_csstwotow .ancmore{
     text-decoration: underline;
@@ -161,3 +165,7 @@ transition: linear all 0.2s;
 .cus_csstwotow .last-ul li{
     float: left;
 }
+
+.customer-info li{
+    margin-top: 5px;
+}   
