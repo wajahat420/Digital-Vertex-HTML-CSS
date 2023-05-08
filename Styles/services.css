@@ -6,6 +6,11 @@
   --font: 16px;
   --large-font: 30px;
   --border-color: #8c8ca580;
+  --sansarif: "myFont";
+}
+@font-face {
+  font-family: myFont;
+  src: url(images/san.ttf.ttf);
 }
 * {
   padding: 0;
@@ -53,12 +58,14 @@ content {
 .services-text h2 {
   font-size: 30px;
   color: #333;
+  font-family: var(--sansarif);
 }
 .services-text p {
   font-size: var(--font);
   color: #333;
   padding: 26px 0;
   line-height: 24px;
+  font-family: var(--sansarif);
 }
 .services-ul ul {
   display: inline-block;
