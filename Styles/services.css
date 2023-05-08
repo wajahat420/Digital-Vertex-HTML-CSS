@@ -60,12 +60,9 @@ content {
   padding: 26px 0;
   line-height: 24px;
 }
-.services-ul{
-  text-align: center;
-}
 .services-ul ul {
   display: inline-block;
-  margin: 0 25px;
+  margin: 0 50px 0 0;
 }
 .services-ul ul li {
   background: #fff;
@@ -89,4 +86,13 @@ content {
 }
 .services-ul ul li:hover {
   box-shadow: 0 0 5px 2px #ccc;
+}
+
+@media (max-width: 991px){
+  .services-ul{
+    text-align: center;
+  }
+  .services-ul ul {
+    margin: 0 25px;
+  }
 }
