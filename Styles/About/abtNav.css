@@ -21,8 +21,14 @@ dark-red
   --font: 16px;
   --large-font: 20px;
   --border-color: #8c8ca580;
+  --grey: #323232;
+  --senserif: "myFont";
 }
 
+@font-face {
+  font-family: "myFont";
+  src: url(images/san.ttf.ttf);
+}
 /* Custom Content Always */
 * {
   margin: 0;
@@ -62,10 +68,10 @@ a {
 
 .header {
   padding: 15px 0;
-  background: #000;
+  background: #020202e3;
   width: 100%;
   z-index: 3;
-  position: absolute;
+  /* position: absolute; */
 }
 
 .header ul {
@@ -76,9 +82,10 @@ a {
 .header li a {
   display: block;
   padding: 20px 20px;
-  font-weight: bold;
+  font-weight: 300;
   border-radius: 5px;
   color: #fff;
+  font-family: var(--senserif);
 }
 
 .header li a:hover,
@@ -182,8 +189,8 @@ a {
 
 .row-1-col-2 h2,
 p {
-  font-size: 35px;
-  color: #fff;
+  font-size: 18px;
+  color: var(--grey);
   padding: 10px 0;
 }
 
