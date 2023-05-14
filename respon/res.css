@@ -5,6 +5,11 @@
   .list .list_style {
     width: 175px;
   }
+
+  .row5{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr  ;
+  }
 }
 
 /* navigation-bar-responsive */
@@ -132,7 +137,7 @@
       display: grid;
       grid-template-columns: 1fr 1fr;
   }
-  .cus_csstwotow{
+  .row5-col1{
       float: none;
   }
   .inn-card-inn{
@@ -146,7 +151,7 @@
       grid-template-columns: 1fr;
       
   }
-  .cus_csstwotow{
+  .row5-col1{
       float: none;
   }
 }

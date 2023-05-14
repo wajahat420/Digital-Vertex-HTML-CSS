@@ -65,7 +65,7 @@ a {
   background: #000;
   width: 100%;
   z-index: 3;
-  position: absolute;
+  /* position: fixed; */
 }
 
 .header ul {
