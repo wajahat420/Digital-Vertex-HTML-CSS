@@ -12,7 +12,6 @@ navy-blue
 red
 dark-red
 */
-
 :root {
   --light-gray: #8c8ca580;
   --white: #ffffff;
@@ -21,9 +20,13 @@ dark-red
   --font: 16px;
   --large-font: 20px;
   --border-color: #8c8ca580;
+  --sansarif: "myFont";
 }
-
-/* Custom Content Always */
+@font-face {
+  font-family: myFont;
+  src: url(images/san.ttf.ttf);
+}
+/* custom content always */
 * {
   margin: 0;
   padding: 0;
@@ -32,7 +35,7 @@ dark-red
   outline: none;
   border: none;
   box-sizing: border-box;
-  font-family: Arial;
+  font-family: var(--sansarif);
 }
 
 .wrapper {
@@ -56,12 +59,13 @@ section {
 
 a {
   color: #000;
+  /* font-family: var(--font-family); */
 }
 
 /* header */
 
 .header {
-  padding: 15px 0;
+  padding: 10px 0;
   background: #000;
   width: 100%;
   z-index: 3;
@@ -76,9 +80,10 @@ a {
 .header li a {
   display: block;
   padding: 20px 20px;
-  font-weight: bold;
   border-radius: 5px;
   color: #fff;
+  font-weight: 500;
+  font-family: var(--sansarif);
 }
 
 .header li a:hover,
@@ -90,7 +95,7 @@ a {
 .header .logo {
   display: block;
   float: left;
-  padding: 0px 20px 10px 10px;
+  /* padding: 0px 20px 10px 10px; */
 }
 .header .logo img {
   width: 155px;
@@ -102,6 +107,7 @@ a {
   max-height: 0;
   transition: max-height 0.2s ease-out;
   text-align: center;
+  margin-top: 12px;
 }
 
 /* menu icon */
@@ -184,11 +190,14 @@ a {
 p {
   font-size: 35px;
   color: #fff;
-  padding: 10px 0;
+  padding: 0px 0;
+  font-weight: 400;
+  font-family: var(--sansarif);
 }
 
 .row-1-col-2 p {
   font-size: 18px;
+  font-family: var(--sansarif);
 }
 
 .row-1-col-2 a {
@@ -200,8 +209,9 @@ p {
   display: inline-block;
   margin: 10px 0;
   transition: linear all 0.2s;
-  font-weight: bold;
-  border: 3px solid #8c8ca580;
+  font-weight: 500;
+  font-family: var(--sansarif);
+  border: 3px solid #8c8ca5;
 }
 
 .row-1-col-2 a:hover {

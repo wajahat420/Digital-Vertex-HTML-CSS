@@ -8,6 +8,12 @@
   border: none;
   box-sizing: border-box;
 }
+
+@font-face {
+  font-family: myFont;
+  src: url(images/san.ttf.ttf);
+}
+
 .wrapper {
   max-width: 1280px;
   width: 100%;
@@ -29,8 +35,7 @@ content {
 .main {
   background: url(images/back.jpg) no-repeat;
   background-size: cover;
-}
-.main:hover {
+  padding: 40px 0px;
 }
 .main-inn {
   display: flex;
@@ -57,7 +62,7 @@ content {
 }
 .round-inn {
   background: #fff;
-  padding: 5px 20px;
+  padding: 5px;
   margin: 35px 0;
   height: auto;
   border-radius: 100px;
@@ -67,11 +72,13 @@ content {
   border-radius: 50%;
   width: 25%;
   float: left;
-  margin-right: 5%;
+  margin-left: -5%;
+  margin-right: 22px;
 }
 .round-inn h2 {
   font-size: 22px;
-  margin-top: 7px;
+  margin-top: 12px;
+  margin-bottom: 6px;
   font-family: Arial;
 }
 .round-inn p {

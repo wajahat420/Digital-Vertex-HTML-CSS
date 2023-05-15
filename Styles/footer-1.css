@@ -149,6 +149,19 @@ content {
   text-align: center;
   padding: 8px 0;
 }
+.row5-col1 ul li .ancthree {
+  color: #fff;
+  font-size: 25px;
+}
+.cus_csstwotow ul li .ancthree {
+  display: inline-block;
+  width: 40px;
+  background: #c72121;
+  height: 40px;
+  border-radius: 100%;
+  text-align: center;
+  padding: 8px 0;
+}
 .row5-col1 ul li .ancthree i {
   color: #fff;
   font-size: 25px;
@@ -156,3 +169,17 @@ content {
 .row5-col1 .last-ul li {
   float: left;
 }
+.cus_csstwotow ul li .ancthree i {
+  color: #fff;
+  font-size: 25px;
+}
+.cus_csstwotow .last-ul li {
+  float: left;
+}
+.cus_csstwotow .last-ul li{
+    float: left;
+}
+
+.customer-info li{
+    margin-top: 5px;
+}   
