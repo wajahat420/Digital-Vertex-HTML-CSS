@@ -69,33 +69,62 @@ content {
 .service-row-1-col1 a:hover{
     background: var(--light-gray);
 }
-.services-row-2{
-    margin-top: 50px;
-    padding: 50px 0;
+.service-row-2-col-1{
+    padding: 30px 10px;
 }
-.services-row-2-col1 h2{
-    padding: 30px 0;
-}
-.services-row-2-col1-inn{
-    background: #fff;
-    box-shadow: 0 0 5px 2px #ccc;
-    padding: 25px 5px;
-    display: inline-block;
-    border-radius: 10px;
-    margin: 20px 10px;
-}
-.services-row-2-col1-inn img{
+.column {
     float: left;
-    width: 40px;
-    height: 35px;
-}
-.services-row-2-col1-inn p{
-    font-size: 16px;
-    color: var(--black);
-    padding: 8px 10px;
+    width: 25%;
+    padding: 0 10px;
+  }
+  
+  /* Remove extra left and right margins, due to padding */
+  .service-row-2 {margin: 40px 0px;}
+  
+  /* Clear floats after the columns */
+  .service-row-2:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  /* Style the counter cards */
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 16px 0;
+    background-color: #f1f1f1;
+  }
+  
+  .card img{
+    width: 50px;
+    float: left;
+  }
+  .card p{
+    font-size: var(--font);
+    color: #000;
+    display: inline-block;
+    padding: 12px;
+  }
+  .card p i{
+    padding: 0 10px;
     display: inline-block;
 }
-.services-row-2-col1-inn p i{
-    padding: 0px 10px;
-    display: inline-block;
+ 
+.services-row-3{
+    padding: 10px 0;
+    margin: 10px 0;
+}
+.services-row-3-col-2{
+    width: 25%;
+    padding: 30px 10px;
+    float: left;
+}
+.services-row-3-col-1-inn img{
+    width: 100%;
+    border-radius: 5px;
+}
+.services-row-3-col-1-inn h4{
+    padding: 10px 0;
+}
+.services-row-3-col-1-inn ul li{
+    padding: 5px 0;
 }
