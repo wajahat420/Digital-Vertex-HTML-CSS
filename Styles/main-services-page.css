@@ -7,7 +7,6 @@
     font-family: Arial;
     border: none;
     box-sizing: border-box;
-    box-sizing: border-box;
     scrollbar-color: transparent transparent; /* thumb and track color */
     scrollbar-width: 0px;
 }
@@ -69,54 +68,47 @@ content {
 .service-row-1-col1 a:hover{
     background: var(--light-gray);
 }
-.service-row-2-col-1{
-    padding: 30px 10px;
+
+.services-row-2{
+    padding: 40px 0;
 }
-.column {
-    float: left;
-    width: 25%;
-    padding: 0 10px;
-  }
-  
-  /* Remove extra left and right margins, due to padding */
-  .service-row-2 {margin: 40px 0px;}
-  
-  /* Clear floats after the columns */
-  .service-row-2:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
-  /* Style the counter cards */
-  .card {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    padding: 16px 0;
-    background-color: #f1f1f1;
-  }
-  
-  .card img{
-    width: 50px;
-    float: left;
-  }
-  .card p{
-    font-size: var(--font);
+.services-row-2-col1{
+    padding: 20px;
+}
+.card{
+    width: 23%;
+box-shadow: 0 0px 5px 3px #ccc;
+border-radius: 5px;
+margin: 10px;
+float: left;
+}
+.card-inner{
+    
+    display: flex;
+padding: 10px;
+} 
+.card-inner img{
+    height: 35px;
+    border-radius: 10px;
+    width: 35px;
+    margin-right: 5px;
+}
+.card-inner p{
+    font-size: 16px;
     color: #000;
-    display: inline-block;
-    padding: 12px;
-  }
-  .card p i{
-    padding: 0 10px;
-    display: inline-block;
+    padding: 5px;
 }
- 
 .services-row-3{
     padding: 10px 0;
     margin: 10px 0;
 }
 .services-row-3-col-2{
     width: 25%;
-    padding: 30px 10px;
+    padding: 25px;
     float: left;
+}
+.services-row-3-col-1{
+    padding: 20px;
 }
 .services-row-3-col-1-inn img{
     width: 100%;
@@ -128,3 +120,65 @@ content {
 .services-row-3-col-1-inn ul li{
     padding: 5px 0;
 }
+
+
+
+
+
+
+
+/* .service-row-2-col-1{
+    padding: 30px 10px;
+}
+.column {
+    float: left;
+  }
+  
+  /* Remove extra left and right margins, due to padding */
+  /* .service-row-2 {margin: 40px 0px;} */
+  
+  /* Clear floats after the columns */
+  /* .service-row-2:after {
+    content: "";
+    display: table;
+    clear: both;
+  } */
+  /* Style the counter cards */
+  /* .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 22px 10px;
+    background-color: #f1f1f1;
+    display: flex;
+  }
+  
+
+
+
+width: 20%;
+    box-shadow: 0 0px 5px 3px #ccc;
+    padding: 16px;
+    text-align: center;
+    float: left;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin: 25px;
+    border-radius: 5px;
+
+
+
+
+
+  .card img{
+    width: 50px;
+    float: left;
+  }
+  .card p{
+    font-size: var(--font);
+    color: #000;
+    display: inline-block;
+    padding: 10px 0;
+  }
+  .card p i{
+    padding: 0 10px;
+}  */
